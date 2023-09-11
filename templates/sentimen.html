@@ -29,8 +29,8 @@
                         <li class="nav__item"><a href="/#id-home" class="nav__link active">Home</a></li>
                         <li class="nav__item"><a href="/#id-about" class="nav__link">About</a></li>
                         <li class="nav__item"><a href="/#id-skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="second-page" class="nav__link">Check Sentiment</a></li>
                         <li class="nav__item"><a href="/#id-contact" class="nav__link">Contact</a></li>
+                        <li class="nav__item"><a href="second-page" class="nav__link">Check Sentiment</a></li>
                     </ul>
                 </div>
 
@@ -44,7 +44,7 @@
             <!--===== HOME =====-->
             <section class="home bd-grid" id="id-home">
                 <div class="home__data">
-                    <h1 class="home__title">Let's<br>Type<span class="home__title-color"> Sentiment</span><br>In the box below</h1>
+                    <h1 class="home__title">Let's<br>Type<span class="home__title-color"> Sentiment </span><br>In the box below</h1>
 
                     <form action="{{ url_for('predict')}}"method="post" class="contact__form">
                         <input type="text" name="Enter sentiment here..." placeholder="Enter Sentiment Here" required="required" class="contact__input">
