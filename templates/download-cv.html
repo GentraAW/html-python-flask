@@ -40,14 +40,12 @@
             <section class="home bd-grid" id="id-home">
                 <div class="home__data">
                     <h1 class="home__title">Hallo,<br>I'am <span class="home__title-color">Gentra</span><br> Data Scientist</h1>
-                    <!--Direct Second page ada di app.py -->
+
                     <a href="second-page" class="button">Check Sentiment</a>
                     <br>
                     <br>
-                    <!--Direct download page ada di app.py -->
                     <a href="download-page" class="button">Download CV</a>
-
-               
+                    
                 </div>
 
 
@@ -69,6 +67,30 @@
                     </svg>
                 </div>
             </section>
+
+            <!--===== Menampilkan pdf =====-->
+            <style>
+                #bodys {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            
+                #pdfContainer3 {
+                    max-width: 800px;
+                    height: 900px; /* Set height to auto to maintain aspect ratio */
+                }
+            
+            </style>
+            
+            <body>
+                <div id="bodys">
+                    <div id="pdfContainer3">
+                        <embed src="{{ url_for('static', filename='file/CV.pdf')}}" type="application/pdf" width="800px" height="900px"/>
+                    </div>
+                </div>
+            </body>
+
 
             <!--===== ABOUT =====-->
             <section class="about section " id="id-about">

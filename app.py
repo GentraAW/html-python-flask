@@ -46,5 +46,9 @@ def predict():
 def second():
     return render_template('sentimen.html')
 
+@app.route('/download-page')
+def third():
+    return render_template('download-cv.html')
+
 if __name__ == "__main__":
     app.run(debug=True)
