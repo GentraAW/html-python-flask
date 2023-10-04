@@ -266,6 +266,10 @@ img {
   margin-bottom: var(--mb-2);
 }
 
+.about__subtitle2 {
+  margin-bottom: var(--mb-2);
+}
+
 .about__img {
   justify-self: center;
 }
