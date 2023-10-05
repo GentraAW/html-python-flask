@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/rdvgfuhy/deploy-flask/
+    - export DEPLOYPATH=/home/rdvgfuhy/public_html/
     - /bin/cp app.py $DEPLOYPATH
     - /bin/cp svm_pickle.pkl $DEPLOYPATH
     - /bin/cp passenger_wsgi.py $DEPLOYPATH
