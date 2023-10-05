@@ -2,11 +2,7 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/rdvgfuhy/public_html/
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp style.css $DEPLOYPATH
     - /bin/cp app.py $DEPLOYPATH
-    - /bin/cp sentiment_model.pkl $DEPLOYPATH
-    - /bin/cp svm_pickle.pkl $DEPLOYPATH
     - /bin/cp -r assets $DEPLOYPATH
     - /bin/cp -r static $DEPLOYPATH
     - /bin/cp -r templates $DEPLOYPATH
