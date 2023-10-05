@@ -50,5 +50,6 @@ def second():
 def third():
     return render_template('download-cv.html')
 
-if __name__ == "__main__":
-    app.run(debug=True)
+#Jika ingin digunakan di local hapus tagar untuk komentar code dibawah
+#if __name__ == "__main__":
+    #app.run(debug=True)
